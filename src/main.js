@@ -1,5 +1,12 @@
 import './styles/global.css'
 
+window.addEventListener("DOMContentLoaded", () => {
+  document.querySelector("#app").innerHTML = `
+    HERO SECTION
+  `;
+});
+
+
 document.querySelector('#app').innerHTML = `
   <section class="hero">
     <div class="hero-left">
