@@ -1,4 +1,4 @@
-import './style.css'
+import './styles/global.css'
 
 document.querySelector('#app').innerHTML = `
   <section class="hero">
