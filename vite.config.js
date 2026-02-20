@@ -1,7 +1,10 @@
+import { defineConfig } from 'vite'
+
 export default {
-  root: "src",
-  publicDir: "../public",
-  build: {
-    outDir: "../dist"
-  }
+    base: './',
+    root: "src",
+    publicDir: "../public",
+    build: {
+        outDir: "../dist"
+    }
 }
