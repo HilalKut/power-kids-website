@@ -1,14 +1,49 @@
 export default function Home() {
+  const testimonialLogos = [
+    "logo1.png",
+    "logo2.jpeg",
+    "logo3.jpg",
+    "logo4.png",
+    "logo5.png",
+    "logo6.png",
+    "logo7.png",
+    "logo8.png",
+    "logo9.png",
+    "logo10.png",
+    "logo11.png",
+    "logo12.png",
+    "logo13.png",
+    "logo14.png",
+    "logo15.png",
+    "logo16.png",
+    "logo17.png",
+    "logo18.png",
+    "logo19.png",
+    "logo20.png",
+    "logo21.png",
+    "logo22.png",
+    "logo23.png",
+    "logo24.png",
+    "logo25.png",
+    "logo26.png",
+    "logo27.png",
+    "logo28.png",
+    "logo29.png",
+    "logo30.png",
+  ]
+
   return `
+    <div id="top-anchor"></div>
     <nav class="top-nav">
       <div class="container nav-inner">
         <a class="logo" href="https://powerkidsapp.com" target="_blank" rel="noreferrer">
-          <span class="logo-mark">P</span>
-          <span>PowerKids</span>
+          <img class="logo-img" src="/logo/image.png" alt="PowerKids logo" />
         </a>
         <div class="nav-links">
           <a href="#ozellikler">Özellikler</a>
           <a href="#nasil-calisir">Nasıl Çalışır</a>
+          <a href="#neler-var">Neler Var?</a>
+          <a href="#referanslar">Referanslar</a>
           <a href="#fiyatlar">Fiyatlar</a>
         </div>
         <a class="nav-cta" href="https://api.whatsapp.com/send?phone=905412199763" target="_blank" rel="noreferrer">
@@ -100,19 +135,63 @@ export default function Home() {
       <div class="container">
         <div class="section-head">
           <h2>3 Adımda Başlayın</h2>
-          <p>Kurulum hızlı, kullanım pratiktir</p>
+          <p>Power Kids işleyişini hızlıca uygulayın</p>
         </div>
         <div class="steps">
-          <article><span>1</span><h4>Okul Hesabını Oluştur</h4><p>Yönetici ve öğretmen profillerini dakikalar içinde açın.</p></article>
-          <article><span>2</span><h4>Sınıfları Tanımla</h4><p>Öğrenci listeleri, yoklama ve veli bağlantılarını eşleştirin.</p></article>
-          <article><span>3</span><h4>Paylaşımlara Başla</h4><p>Günlük akış, yemek, etkinlik ve duyuruları düzenli yayınlayın.</p></article>
+          <article><span>1</span><h4>Kurum Kaydını Tamamla</h4><p>Kreş/anaokulu hesabını oluşturup kurulum desteğini alın.</p></article>
+          <article><span>2</span><h4>Veli Teslim Sürecini Başlat</h4><p>Anlaşmalı kargo ile basılı materyaller velilere imza karşılığı ulaşır.</p></article>
+          <article><span>3</span><h4>Paylaşım ve Takibe Geç</h4><p>Etkinlik, yemek menüsü, yoklama ve duyuruları günlük yönetin.</p></article>
+        </div>
+        <div class="how-video">
+          <a class="video-link" href="https://www.youtube.com/watch?v=oenjxaIFqh8" target="_blank" rel="noreferrer" aria-label="PowerKids kullanım videosunu YouTube'da aç">
+            <img class="video-thumb" src="https://img.youtube.com/vi/oenjxaIFqh8/hqdefault.jpg" alt="PowerKids kullanım videosu önizleme görseli" />
+            <span class="video-overlay">
+              <span class="material-symbols-outlined">play_arrow</span>
+              <span>Kullanım videosunu izleyin</span>
+            </span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="neler-var" class="section-pad capabilities bg-soft">
+      <div class="container">
+        <div class="section-head">
+          <h2>Power Kids'te Neler Var?</h2>
+          <p>powerkidsapp.com içeriğine göre öne çıkan modüller</p>
+        </div>
+        <div class="cap-grid">
+          <article class="cap-card"><span class="material-symbols-outlined">groups</span><h3>Veli Yönetimi</h3><p>Velilere özel kayıt, listeleme ve hızlı erişim ekranları.</p></article>
+          <article class="cap-card"><span class="material-symbols-outlined">checklist</span><h3>Yoklama Takibi</h3><p>Sınıf bazlı devam-devamsızlık takibini dijital olarak yönetin.</p></article>
+          <article class="cap-card"><span class="material-symbols-outlined">notifications_active</span><h3>Duyuru Sistemi</h3><p>Tek ekrandan tüm velilere anlık ve planlı duyuru gönderin.</p></article>
+          <article class="cap-card"><span class="material-symbols-outlined">restaurant_menu</span><h3>Yemek Menüsü</h3><p>Günlük/haftalık menüleri velilerle düzenli paylaşın.</p></article>
+          <article class="cap-card"><span class="material-symbols-outlined">calendar_month</span><h3>Etkinlik Takvimi</h3><p>Özel gün ve sınıf aktivitelerini velilere görünür kılın.</p></article>
+          <article class="cap-card"><span class="material-symbols-outlined">photo_library</span><h3>Fotoğraf & Video</h3><p>Günlük paylaşımlarla velilerin sınıf sürecini anlık izlemesini sağlayın.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-pad free-services">
+      <div class="container">
+        <div class="section-head">
+          <h2>Ücretsiz Hizmetler</h2>
+          <p>Power Kids'te kurumlara sunulan destekler</p>
+        </div>
+        <div class="free-grid">
+          <article class="free-card"><h3>Kuruma Özel Web Sitesi</h3><p>Kurumsal görünürlüğünüz için hızlı kurulumlu web sitesi desteği.</p></article>
+          <article class="free-card"><h3>E-Fatura Entegrasyonu</h3><p>Ön muhasebe ve e-fatura işlemlerini tek panelden yönetin.</p></article>
+          <article class="free-card"><h3>Ücretsiz Anons Sistemi</h3><p>Duyurularınızı velilere SMS/mobil bildirimle iletin.</p></article>
+          <article class="free-card"><h3>Yemek Menüsü Modülü</h3><p>Menü paylaşımı için hazır sayfa ve düzenli akış altyapısı.</p></article>
+          <article class="free-card"><h3>Sınırsız Paylaşım</h3><p>Fotoğraf, video ve etkinlik paylaşımlarında kullanım limiti olmadan ilerleyin.</p></article>
         </div>
       </div>
     </section>
 
     <section class="section-pad family">
       <div class="container family-grid">
-        <div class="family-art" aria-hidden="true"></div>
+        <figure class="family-art">
+          <img src="/images/phones.png" alt="PowerKids uygulama ekran görünümleri" />
+        </figure>
         <div>
           <p class="tag">AİLELER İÇİN</p>
           <h2>Her Veli İçin Rahatlık</h2>
@@ -153,36 +232,79 @@ export default function Home() {
       </div>
     </section>
 
+    <section id="referanslar" class="section-pad logo-wall">
+      <div class="container">
+        <div class="section-head">
+          <h2>Referans Okullar</h2>
+          <p>Power Kids kullanan kurumlarımızdan örnek logo galerisi</p>
+        </div>
+        <div class="logo-wall-frame">
+          <div class="logo-wall-grid">
+            ${testimonialLogos
+              .map(
+                (logo, i) => `
+                  <article class="logo-item">
+                    <img src="/logo/${logo}" alt="Referans okul logosu ${i + 1}" loading="lazy" />
+                  </article>
+                `
+              )
+              .join("")}
+          </div>
+        </div>
+      </div>
+    </section>
+
     <section id="fiyatlar" class="section-pad pricing">
       <div class="container">
         <div class="section-head">
-          <h2>Paket Seçenekleri</h2>
-          <p>İhtiyacınıza göre esnek kurulum</p>
+          <h2>Paketler</h2>
+          <p>Kurumunuza uygun paket içeriklerini inceleyin</p>
         </div>
-        <div class="price-grid">
-          <article class="price-card">
-            <h3>Temel</h3>
-            <p class="sub">Küçük ölçekli kurumlar</p>
-            <p class="price">İletişime Geçin</p>
+
+        <div class="package-grid">
+          <article class="package-card" id="paket-baslangic">
+            <h3>Başlangıç</h3>
+            <p class="sub">Öğrenci Sayısı 30'a kadar</p>
+            <p class="price-note">Aylık: Arayın</p>
             <ul>
-              <li>Günlük akış paylaşımı</li>
-              <li>Yoklama ve duyuru</li>
-              <li>Temel destek</li>
+              <li>Yeni okullara %12 indirim</li>
+              <li>Yıllık fiyatlar / 3 taksit</li>
+              <li>Veli sayısı sınırsız</li>
+              <li>Günlük paylaşım sınırsız</li>
+              <li>Kredi kartı ile ödeme alma</li>
+              <li>Geriye dönük 15 gün takip</li>
             </ul>
             <a href="https://api.whatsapp.com/send?phone=905412199763" target="_blank" rel="noreferrer">Bilgi Al</a>
           </article>
-          <article class="price-card popular">
-            <span class="badge">EN ÇOK TERCİH EDİLEN</span>
-            <h3>Premium</h3>
-            <p class="sub">Tam yönetim paketi</p>
-            <p class="price">Kurumunuza Özel</p>
+
+          <article class="package-card" id="paket-ekonomik">
+            <h3>Ekonomik</h3>
+            <p class="sub">Öğrenci Sayısı 31 - 90</p>
+            <p class="price-note">Aylık: Arayın</p>
             <ul>
-              <li>Temel paketteki tüm özellikler</li>
-              <li>Gelişmiş raporlama</li>
-              <li>Öncelikli destek</li>
-              <li>Kurulum danışmanlığı</li>
+              <li>Yeni okullara %10 indirim</li>
+              <li>Yıllık fiyatlar / 3 taksit</li>
+              <li>Veli sayısı sınırsız</li>
+              <li>Günlük paylaşım sınırsız</li>
+              <li>Kredi kartı ile ödeme alma</li>
+              <li>Geriye dönük 15 gün takip</li>
             </ul>
-            <a href="https://powerkidsapp.com" target="_blank" rel="noreferrer">Teklif Al</a>
+            <a href="https://api.whatsapp.com/send?phone=905412199763" target="_blank" rel="noreferrer">Bilgi Al</a>
+          </article>
+
+          <article class="package-card popular" id="paket-ideal">
+            <h3>İdeal</h3>
+            <p class="sub">Öğrenci Sayısı 91 - 150</p>
+            <p class="price-note">Aylık: Arayın</p>
+            <ul>
+              <li>Yeni okullara %10 indirim</li>
+              <li>Yıllık fiyatlar / 3 taksit</li>
+              <li>Veli sayısı sınırsız</li>
+              <li>Günlük paylaşım sınırsız</li>
+              <li>Kredi kartı ile ödeme alma</li>
+              <li>Geriye dönük 15 gün takip</li>
+            </ul>
+            <a href="https://powerkidsapp.com" target="_blank" rel="noreferrer">Bilgi Al</a>
           </article>
         </div>
       </div>
@@ -190,7 +312,7 @@ export default function Home() {
 
     <section class="cta section-pad">
       <div class="container cta-inner">
-        <h2>PowerKids ile kurumunuzu dijitale taşıyın</h2>
+        <h2>PowerKids ile Kurumunuzu Dijitale Taşıyın</h2>
         <p>Kurulum için ekibimizle hemen iletişime geçin.</p>
         <div>
           <a class="btn white" href="https://api.whatsapp.com/send?phone=905412199763" target="_blank" rel="noreferrer">WhatsApp İletişim</a>
@@ -203,8 +325,7 @@ export default function Home() {
       <div class="container footer-grid">
         <div>
           <a class="logo" href="https://powerkidsapp.com" target="_blank" rel="noreferrer">
-            <span class="logo-mark">P</span>
-            <span>PowerKids</span>
+            <img class="logo-img" src="/logo/image.png" alt="PowerKids logo" />
           </a>
           <p>Okul öncesi eğitimde veli iletişimini güçlendiren dijital yardımcı.</p>
         </div>
@@ -221,5 +342,20 @@ export default function Home() {
       </div>
       <p class="copyright">© ${new Date().getFullYear()} PowerKids</p>
     </footer>
+
+    <div class="floating-actions" aria-label="Hızlı iletişim butonları">
+      <a class="fab fab-whatsapp" href="https://api.whatsapp.com/send?phone=905412199763" target="_blank" rel="noreferrer" aria-label="WhatsApp ile iletişim">
+        <span class="material-symbols-outlined">chat</span>
+        <span>WhatsApp</span>
+      </a>
+      <a class="fab fab-email" href="mailto:info@powerkidsapp.com" aria-label="E-posta gönder">
+        <span class="material-symbols-outlined">mail</span>
+        <span>E-posta</span>
+      </a>
+      <a class="fab fab-top" href="#top-anchor" aria-label="Yukarı çık">
+        <span class="material-symbols-outlined">keyboard_arrow_up</span>
+        <span>Yukarı Çık</span>
+      </a>
+    </div>
   `
 }
