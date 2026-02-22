@@ -158,7 +158,7 @@ export default function Home() {
       <div class="container">
         <div class="section-head">
           <h2>Power Kids'te Neler Var?</h2>
-          <p>powerkidsapp.com içeriğine göre öne çıkan modüller</p>
+          <p>PowerKids' de öne çıkan modüller</p>
         </div>
         <div class="cap-grid">
           <article class="cap-card"><span class="material-symbols-outlined">groups</span><h3>Veli Yönetimi</h3><p>Velilere özel kayıt, listeleme ve hızlı erişim ekranları.</p></article>
@@ -236,7 +236,7 @@ export default function Home() {
       <div class="container">
         <div class="section-head">
           <h2>Referans Okullar</h2>
-          <p>Power Kids kullanan kurumlarımızdan örnek logo galerisi</p>
+          <p>Power Kids kullanan kurumlarımız</p>
         </div>
         <div class="logo-wall-frame">
           <div class="logo-wall-grid">
