@@ -316,7 +316,6 @@ export default function Home() {
         <p>Kurulum için ekibimizle hemen iletişime geçin.</p>
         <div>
           <a class="btn white" href="https://api.whatsapp.com/send?phone=905412199763" target="_blank" rel="noreferrer">WhatsApp İletişim</a>
-          <a class="btn yellow" href="https://powerkidsapp.com" target="_blank" rel="noreferrer">Resmi Site</a>
         </div>
       </div>
     </section>
@@ -324,7 +323,7 @@ export default function Home() {
     <footer class="site-footer">
       <div class="container footer-grid">
         <div>
-          <a class="logo" href="https://powerkidsapp.com" target="_blank" rel="noreferrer">
+          <a class="logo" href="#top-anchor" aria-label="Sayfa başına dön">
             <img class="logo-img" src="/logo/image.png" alt="PowerKids logo" />
           </a>
           <p>Okul öncesi eğitimde veli iletişimini güçlendiren dijital yardımcı.</p>
@@ -336,7 +335,6 @@ export default function Home() {
         </div>
         <div>
           <h4>Kurumsal</h4>
-          <a href="https://powerkidsapp.com" target="_blank" rel="noreferrer">Hakkımızda</a>
           <a href="https://api.whatsapp.com/send?phone=905412199763" target="_blank" rel="noreferrer">İletişim</a>
         </div>
       </div>
