@@ -5,8 +5,7 @@ Turkish landing page project for **Power Kids**, built with Vite.
 ## Project Links
 
 - GitHub Repository: [https://github.com/HilalKut/power-kids-website](https://github.com/HilalKut/power-kids-website)
-- Latest Production Commit: Check the latest commit on `main`
-- Live URL: _Add your Vercel/Netlify URL here_
+- Live URL: https://power-kids-website.vercel.app
 
 ## Features
 
