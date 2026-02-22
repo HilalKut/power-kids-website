@@ -66,7 +66,7 @@ export default function Home() {
             duyuru, yoklama ve etkinlik paylaşımını tek uygulamada birleştirir.
           </p>
           <div class="hero-actions">
-            <a class="btn btn-red" href="https://www.youtube.com/watch?v=oenjxaIFqh8" target="_blank" rel="noreferrer">Start Setup</a>
+            <a class="btn btn-red" href="https://www.youtube.com/watch?v=oenjxaIFqh8" target="_blank" rel="noreferrer">Kurulum</a>
             <a class="btn btn-blue" href="https://api.whatsapp.com/send?phone=905412199763" target="_blank" rel="noreferrer">Demo Talep Et</a>
           </div>
         </div>
