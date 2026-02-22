@@ -304,7 +304,7 @@ export default function Home() {
               <li>Kredi kartı ile ödeme alma</li>
               <li>Geriye dönük 15 gün takip</li>
             </ul>
-            <a href="https://powerkidsapp.com" target="_blank" rel="noreferrer">Bilgi Al</a>
+            <a href="https://api.whatsapp.com/send?phone=905412199763" target="_blank" rel="noreferrer">Bilgi Al</a>
           </article>
         </div>
       </div>
