@@ -36,7 +36,7 @@ export default function Home() {
     <div id="top-anchor"></div>
     <nav class="top-nav">
       <div class="container nav-inner">
-        <a class="logo" href="https://powerkidsapp.com" target="_blank" rel="noreferrer">
+        <a class="logo" href="/">
           <img class="logo-img" src="/logo/image.png" alt="PowerKids logo" />
         </a>
         <div class="nav-links">
@@ -45,6 +45,7 @@ export default function Home() {
           <a href="#neler-var">Neler Var?</a>
           <a href="#referanslar">Referanslar</a>
           <a href="#fiyatlar">Fiyatlar</a>
+          <a href="/iletisim">İletişim</a>
         </div>
         <a class="nav-cta" href="https://api.whatsapp.com/send?phone=905412199763" target="_blank" rel="noreferrer">
           Hemen Başla
@@ -161,12 +162,12 @@ export default function Home() {
           <p>PowerKids' de öne çıkan modüller</p>
         </div>
         <div class="cap-grid">
-          <article class="cap-card"><span class="material-symbols-outlined">groups</span><h3>Veli Yönetimi</h3><p>Velilere özel kayıt, listeleme ve hızlı erişim ekranları.</p></article>
-          <article class="cap-card"><span class="material-symbols-outlined">checklist</span><h3>Yoklama Takibi</h3><p>Sınıf bazlı devam-devamsızlık takibini dijital olarak yönetin.</p></article>
-          <article class="cap-card"><span class="material-symbols-outlined">notifications_active</span><h3>Duyuru Sistemi</h3><p>Tek ekrandan tüm velilere anlık ve planlı duyuru gönderin.</p></article>
-          <article class="cap-card"><span class="material-symbols-outlined">restaurant_menu</span><h3>Yemek Menüsü</h3><p>Günlük/haftalık menüleri velilerle düzenli paylaşın.</p></article>
-          <article class="cap-card"><span class="material-symbols-outlined">calendar_month</span><h3>Etkinlik Takvimi</h3><p>Özel gün ve sınıf aktivitelerini velilere görünür kılın.</p></article>
-          <article class="cap-card"><span class="material-symbols-outlined">photo_library</span><h3>Fotoğraf & Video</h3><p>Günlük paylaşımlarla velilerin sınıf sürecini anlık izlemesini sağlayın.</p></article>
+          <a class="cap-card cap-link" href="/ozellik/veli-yonetimi"><span class="material-symbols-outlined">groups</span><h3>Veli Yönetimi</h3><p>Velilere özel kayıt, listeleme ve hızlı erişim ekranları.</p></a>
+          <a class="cap-card cap-link" href="/ozellik/yoklama-takibi"><span class="material-symbols-outlined">checklist</span><h3>Yoklama Takibi</h3><p>Sınıf bazlı devam-devamsızlık takibini dijital olarak yönetin.</p></a>
+          <a class="cap-card cap-link" href="/ozellik/duyuru-sistemi"><span class="material-symbols-outlined">notifications_active</span><h3>Duyuru Sistemi</h3><p>Tek ekrandan tüm velilere anlık ve planlı duyuru gönderin.</p></a>
+          <a class="cap-card cap-link" href="/ozellik/yemek-menusu"><span class="material-symbols-outlined">restaurant_menu</span><h3>Yemek Menüsü</h3><p>Günlük/haftalık menüleri velilerle düzenli paylaşın.</p></a>
+          <a class="cap-card cap-link" href="/ozellik/etkinlik-takvimi"><span class="material-symbols-outlined">calendar_month</span><h3>Etkinlik Takvimi</h3><p>Özel gün ve sınıf aktivitelerini velilere görünür kılın.</p></a>
+          <a class="cap-card cap-link" href="/ozellik/foto-video"><span class="material-symbols-outlined">photo_library</span><h3>Fotoğraf & Video</h3><p>Günlük paylaşımlarla velilerin sınıf sürecini anlık izlemesini sağlayın.</p></a>
         </div>
       </div>
     </section>
@@ -335,7 +336,7 @@ export default function Home() {
         </div>
         <div>
           <h4>Kurumsal</h4>
-          <a href="https://api.whatsapp.com/send?phone=905412199763" target="_blank" rel="noreferrer">İletişim</a>
+          <a href="/iletisim">İletişim</a>
         </div>
       </div>
       <p class="copyright">© ${new Date().getFullYear()} PowerKids</p>
